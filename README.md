@@ -2,9 +2,11 @@
 
 ## Table of contents
 * [Introduction](#introduction)
+* [Prerequisites](#prerequisites)
 * [User Guide](#user-guide)
 * [Description of Files](#short-description-of-each-file)
 * [Bugs](#bugs-notes)
+* [License](#license)
 
 ## Introduction
 This project was made as part of the course "Process Design II" at the School of Chemical Enginnering of the National Technical University of Athens. It uses a csv or excel spreadsheet file as input, and it generates:
@@ -13,6 +15,9 @@ This project was made as part of the course "Process Design II" at the School of
 * The standard grid diagram of heat exchanger networks
 * An alternative *graphical* version of the grid diagram
 * An output cvs or excel spreadsheet file with the same information as the input file, but sorted to be like the grid diagram streams
+
+## Prerequisites
+The project was developed in MATLAB 2020b. If you have earlier versions of MATLAB, you may have some compatibility issues (see [Bugs-Notes](#bugs-notes)).
 
 ## User Guide
 It is reasonably simple to us the program if you do not want to make further changes. First, you need to make a spreadheet with 4 columns:
