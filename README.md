@@ -3,23 +3,26 @@
 ## Table of contents
 * [Introduction](#introduction)
 * [Prerequisites](#prerequisites)
-* [User Guide](#user-guide)
+* [Usage](#usage)
 * [Description of Files](#short-description-of-each-file)
 * [Bugs](#bugs-notes)
+* [Acknowledgments](#acknowledgments)
+* [Contact](#contact)
 * [License](#license)
 
 ## Introduction
 This project was made as part of the course "Process Design II" at the School of Chemical Enginnering of the National Technical University of Athens. It uses a csv or excel spreadsheet file as input, and it generates:
 * The Grand Composite Curve of the process
 * The Enthalpy - Temperature diagram
-* The standard grid diagram of heat exchanger networks
+* The standard grid diagram for heat exchanger networks
 * An alternative *graphical* version of the grid diagram
 * An output cvs or excel spreadsheet file with the same information as the input file, but sorted to be like the grid diagram streams
 
 ## Prerequisites
-The project was developed in MATLAB 2020b. If you have earlier versions of MATLAB, you may have some compatibility issues (see [Bugs-Notes](#bugs-notes)).
+* The project was developed in MATLAB 2020b. If you have earlier versions of MATLAB, you may have some compatibility issues (see [Bugs-Notes](#bugs-notes)).
+* Basic knowledge of process integration.
 
-## User Guide
+## Usage
 It is reasonably simple to us the program if you do not want to make further changes. First, you need to make a spreadheet with 4 columns:
 * The first column will be the ID of each stream. You can name each stream however you want.
 * The second column will be the inlet temperature of each stream in degrees Celius.
@@ -54,6 +57,13 @@ This is just an empty spreadheet that can be used as a template for the input fi
 ## Bugs-Notes
 * The only problem that has been noted so far is that in some earlier versions of MATLAB, there is an error in the readtable and writetable functions. A universal solution is not applicable, as it depends on the version of MATLAB that you are using.
 * The program has been tested for pinch problems and threshold problems with no hot utility, but not for threshold problems with no cold utility. However, no bugs are expected for this kind of problems as well.
+
+## Acknowledgments
+* This project was created as part of a Process Design course and the methodology is based on the lectures.
+* The project was tested and improved by my team for this course.
+
+## Contact
+Created by @dimos99 - feel free to contact me! (also found in dimos99@gmail.com)
 
 ## License
 This project is licensed under the MIT License
