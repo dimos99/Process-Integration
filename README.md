@@ -63,7 +63,7 @@ This is just an empty spreadheet that can be used as a template for the input fi
 * The project was tested and improved by my team for this course.
 
 ## Contact
-Created by @dimos99 - feel free to contact me! (also found in dimos99@gmail.com)
+Created by [@dimos99](https://github.com/dimos99) - feel free to contact me! (also found in dimos99@gmail.com)
 
 ## License
 This project is licensed under the MIT License
