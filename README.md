@@ -1,4 +1,5 @@
 # Process Integration
+[![View Process Integration on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/92528-process-integration)
 
 ## Table of contents
 * [Introduction](#introduction)
