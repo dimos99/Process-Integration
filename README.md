@@ -12,7 +12,7 @@
 * [License](#license)
 
 ## Introduction
-This project was made as part of the course "Process Design II" at the School of Chemical Enginnering of the National Technical University of Athens. It uses a csv or excel spreadsheet file as input, and it generates:
+This project was made as part of the course "Process Design II" at the School of Chemical Engineering of the National Technical University of Athens. It uses a csv or excel spreadsheet file as input, and it generates:
 * The Grand Composite Curve of the process
 * The Enthalpy - Temperature diagram
 * The standard grid diagram for heat exchanger networks
